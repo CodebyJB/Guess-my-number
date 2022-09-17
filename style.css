@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Press Start 2P", cursive, Arial, Helvetica, sans-serif;
+  background-color: rgb(109, 106, 106);
+  color: #fff;
+}
+.wrapper {
+  max-width: 600px;
+  margin: 2.5rem auto;
+  text-align: center;
+}
+header,
+h1 {
+  margin: 2rem 0;
+}
+.number {
+  border: 0.5rem solid #fff;
+  max-width: 15rem;
+  font-size: 3rem;
+  margin: 2rem auto;
+  padding: 1rem 0;
+}
+.guess {
+  display: block;
+  border: 0.5rem solid #fff;
+  max-width: 15rem;
+  font-size: 3rem;
+  margin: 2rem auto;
+  padding: 1rem 0;
+  background: none;
+  text-align: center;
+  color: #fff;
+  font-family: inherit;
+  cursor: pointer;
+}
+.btn {
+  padding: 1rem;
+  font-family: inherit;
+  color: rgb(109, 106, 106);
+  cursor: pointer;
+}
+.btn:hover {
+  color: #fff;
+  background-color: rgb(109, 106, 106);
+  border: 0.125rem solid #fff;
+}
+.label-score,
+.label-highscore {
+  margin: 1rem auto;
+}
