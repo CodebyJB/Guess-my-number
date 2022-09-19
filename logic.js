@@ -14,6 +14,7 @@ const checkBtn = document
       displayMsg("⛔️ No number!");
     } else if (guessNumber === secretNumber) {
       displayMsg("🥳 You won!");
+      document.querySelector(".number").innerText = secretNumber;
       document.querySelector("body").style.backgroundColor = "lightgreen";
       if (score > highscore) {
         highscore = score;
