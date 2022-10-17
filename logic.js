@@ -42,4 +42,5 @@ const againBtn = document
     displayMsg("🤔 Start guessing ...");
     document.querySelector("body").style.backgroundColor = "rgb(109, 106, 106)";
     document.querySelector(".guess").value = "";
+    document.querySelector(".number").innerText = "?";
   });
